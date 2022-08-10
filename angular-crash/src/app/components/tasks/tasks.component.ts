@@ -25,6 +25,8 @@ if (task)task.reminder= !task.reminder;
 this.taskService.updateTaskReminder(task).subscribe()
   }
 
+  //Todo: edit task
+
   addTask(task:Task){
     console.log(this.tasks);
     

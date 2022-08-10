@@ -1,7 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Task } from 'src/app/mock-tasks';
-import { FormsModule } from '@angular/forms';
-
+ 
 @Component({
   selector: 'app-add-task',
   templateUrl: './add-task.component.html',
